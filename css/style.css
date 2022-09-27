@@ -284,17 +284,23 @@ visibility: hidden;
   background-color: var(--secondary-text-color)
 }
 .hero-button-close{
-  min-width: 30px;
-  min-height: 30px;
+  min-width: 35px;
+  min-height: 35px;
   padding: 0;
-  border: none;
+  display: flex;
+ align-items: center;
+ justify-content: center;
   margin-top: 8px;
   margin-right: 8px;
-  background-color: transparent;
-  background-image: url(../images/close\ \(1\).jpg);
-  transition: opacity 260ms linear;
-  
+ 
+  background:var(--secondary-text-color);
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50% ;
+  position: absolute;
 }
+
+
+ 
 /* model */
 
 .hero-button {
@@ -784,9 +790,9 @@ margin-top: 12px;
   letter-spacing: 0.06em;
   cursor: pointer;
   border: transparent;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   box-shadow :250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-secondary:hover,
 .button-secondary:focus {
